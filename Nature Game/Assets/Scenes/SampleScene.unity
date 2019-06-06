@@ -3999,6 +3999,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114116432975515744, guid: bef22b2433a8c8a43a8c9fca97cfee6d,
+        type: 2}
+      propertyPath: onCollisionEnterActions.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4844964104379894, guid: bef22b2433a8c8a43a8c9fca97cfee6d, type: 2}
       propertyPath: m_LocalPosition.x
       value: 32.34
@@ -4030,6 +4035,31 @@ Prefab:
     - target: {fileID: 4844964104379894, guid: bef22b2433a8c8a43a8c9fca97cfee6d, type: 2}
       propertyPath: m_RootOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116432975515744, guid: bef22b2433a8c8a43a8c9fca97cfee6d,
+        type: 2}
+      propertyPath: onCollisionEnterActions.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116432975515744, guid: bef22b2433a8c8a43a8c9fca97cfee6d,
+        type: 2}
+      propertyPath: onCollisionEnterActions.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116432975515744, guid: bef22b2433a8c8a43a8c9fca97cfee6d,
+        type: 2}
+      propertyPath: onCollisionEnterActions.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2113411872}
+    - target: {fileID: 114116432975515744, guid: bef22b2433a8c8a43a8c9fca97cfee6d,
+        type: 2}
+      propertyPath: onCollisionEnterActions.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ActionSaveValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116432975515744, guid: bef22b2433a8c8a43a8c9fca97cfee6d,
+        type: 2}
+      propertyPath: onCollisionEnterActions.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bef22b2433a8c8a43a8c9fca97cfee6d, type: 2}
@@ -4165,17 +4195,6 @@ MonoBehaviour:
   onValueChange:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2113411872}
-        m_MethodName: ActionAddValue
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2113411873}
         m_MethodName: ActionSetTextInt
         m_Mode: 0
